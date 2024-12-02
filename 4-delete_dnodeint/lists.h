@@ -24,4 +24,5 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 void free_dlistint(dlistint_t *head);
 
-#endif
+#endif /* _LISTS_H_ */
+
